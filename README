@@ -1,0 +1,5 @@
+./scripts/setup-db.sh
+
+mvn install tomcat7:run -DskipTests -Dmaven.tomcat.port=9000
+
+# running a mvn clean install would clean the target and remove the initialized db
